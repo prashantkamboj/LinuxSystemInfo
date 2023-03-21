@@ -175,7 +175,7 @@ fi
 echo -e "\rTerminal:\t\t\t$TERM${TERMINAL:+ ($TERMINAL)}"
 
 
-if command -v dmidecode >/dev/null && SERIAL_NUMBER=$(dmidecode -s system-serial-number); then
+if command -v dmidecode >/dev/null && SERIAL_NUMBER=$(sudo dmidecode -s system-serial-number); then
 echo -e "Serial Number\t\t\t$SERIAL_NUMBER"
 fi
 echo
