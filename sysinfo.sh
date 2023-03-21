@@ -2,8 +2,8 @@
 
 # Teal Dulcet
 # Outputs system information
-# wget https://raw.github.com/tdulcet/Linux-System-Information/master/info.sh -qO - | bash -s --
-# ./info.sh
+# wget https://github.com/prashantkamboj/LinuxSystemInfo/edit/main/sysinfo.sh -qO - | bash -s --
+# ./sysinfo.sh
 
 if [[ $# -ne 0 ]]; then
 	echo "Usage: $0" >&2
