@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Teal Dulcet
+# Teal Dulcet && Prashant Kamboj
 # Outputs system information
 # wget https://github.com/prashantkamboj/LinuxSystemInfo/edit/main/sysinfo.sh -qO - | bash -s --
 # ./sysinfo.sh
