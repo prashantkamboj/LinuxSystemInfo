@@ -2,7 +2,7 @@
 
 # Teal Dulcet && Prashant Kamboj
 # Outputs system information
-# wget https://github.com/prashantkamboj/LinuxSystemInfo/edit/main/sysinfo.sh -qO - | bash -s --
+# wget wget https://raw.githubusercontent.com/prashantkamboj/LinuxSystemInfo/main/sysinfo.sh -qO - | bash -s --
 # ./sysinfo.sh
 
 if [[ $# -ne 0 ]]; then
